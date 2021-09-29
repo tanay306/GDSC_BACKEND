@@ -13,11 +13,24 @@
             <form action="/createStudent" method="POST">
                 <label for="name" style="font-size: large;">Name:</label><br>
                 <input type="text" id="name" name="name" placeholder="Name" style="width: 300px; height: 25px;" required><br><br>
-                <label for="name" style="font-size: large;">Division:</label><br>
-                <input type="text" id="division" name="division" placeholder="Division" style="width: 300px; height: 25px;" required><br><br>
-                <label for="name" style="font-size: large;">Year:</label><br>
-                <input type="text" id="year" name="year" placeholder="Year" style="width: 300px; height: 25px;" required><br><br>
-                <label for="name" style="font-size: large;">Roll No:</label><br>
+                <label for="division" style="font-size: large;">Division:</label><br>
+                <select id="division" name="division" style="width: 310px; height: 30px;" required>
+                    <option disabled selected value> -- select an option -- </option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select>
+                <br><br>
+                <label for="year" style="font-size: large;">Year:</label><br>
+                <select id="year" name="year" style="width: 310px; height: 30px;" required>
+                    <option disabled selected value> -- select an option -- </option>
+                    <option value="FE">FE</option>
+                    <option value="SE">SE</option>
+                    <option value="TE">TE</option>
+                    <option value="BE">BE</option>
+                </select>
+                <br><br>
+                <label for="roll_id" style="font-size: large;">Roll No:</label><br>
                 <input type="number" id="roll_id" name="roll_id" placeholder="Roll No:" style="width: 300px; height: 25px;" required><br><br>
                 <input type="submit" value="Submit">
             </form>

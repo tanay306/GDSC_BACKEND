@@ -1,3 +1,3 @@
 # GDSC Backend Task
 
-Hosted Online: https://student-management-gdsc.herokuapp.com
+Hosted on Heroku: https://student-management-gdsc.herokuapp.com

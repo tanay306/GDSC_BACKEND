@@ -1,2 +1,3 @@
-# GDSC_BACKEND
-GDSC Backend Task
+# GDSC Backend Task
+
+Hosted on Heroku: https://student-management-gdsc.herokuapp.com

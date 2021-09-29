@@ -1,0 +1,31 @@
+{
+  "name": "gdsc_backend",
+  "version": "1.0.0",
+  "description": "GDSC Task for backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanay306/GDSC_BACKEND.git"
+  },
+  "author": "Tanay Gandhi",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "bugs": {
+    "url": "https://github.com/tanay306/GDSC_BACKEND/issues"
+  },
+  "homepage": "https://github.com/tanay306/GDSC_BACKEND#readme"
+}

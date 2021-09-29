@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Student</title>
+</head>
+<body>
+    <div class="container" style="text-align: center; margin-top: 50px;">
+        <h1 style="margin-bottom: 50px;">Delete Student Page</h1>
+        <div>
+            <form action="/deleteStudent" method="POST">
+                <label for="name" style="font-size: large;">Roll No:</label><br>
+                <input type="number" id="roll_id" name="roll_id" placeholder="Roll No:" style="width: 300px; height: 25px;" required><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>    
+</body>
+</html>
